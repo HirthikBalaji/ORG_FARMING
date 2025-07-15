@@ -1,0 +1,31 @@
+# requirements.txt - Dependencies for Smart Agriculture System
+
+# Server dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-SocketIO==5.3.6
+python-socketio==5.8.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Client dependencies
+streamlit==1.28.0
+requests==2.31.0
+pandas==2.1.0
+plotly==5.16.1
+
+# Common dependencies
+numpy==1.24.3
+datetime  # Built-in with Python
+json  # Built-in with Python
+threading  # Built-in with Python
+uuid  # Built-in with Python
+time  # Built-in with Python
+random  # Built-in with Python
+dataclasses  # Built-in with Python (Python 3.7+)
+typing  # Built-in with Python
+
+# Optional: For production deployment
+gunicorn==21.2.0
+eventlet==0.33.3
